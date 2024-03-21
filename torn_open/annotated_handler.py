@@ -11,7 +11,7 @@ from typing import (
 
 import tornado
 
-import pydantic
+import pydantic.v1 as pydantic
 
 from torn_open import types
 from torn_open import models

@@ -1,5 +1,5 @@
 from tornado.web import url
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 from torn_open import Application, AnnotatedHandler, RequestModel, ResponseModel
 

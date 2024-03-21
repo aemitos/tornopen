@@ -1,6 +1,6 @@
 apispec==6.6.0
 pip-chill==1.0.3
-pydantic==1.7.3
+pydantic==2.6.4
 pytest-tornado==0.8.1
 pytest-watch==4.2.0
 rope==1.12.0

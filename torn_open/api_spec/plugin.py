@@ -1,7 +1,7 @@
 from typing import Dict, Tuple, Optional
 import inspect
 
-from pydantic import create_model
+from pydantic.v1 import create_model
 
 from apispec import BasePlugin
 from torn_open.types import is_optional, GenericAliases

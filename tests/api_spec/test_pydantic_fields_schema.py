@@ -1,6 +1,6 @@
 import pytest
 
-from pydantic import Field
+from pydantic.v1 import Field
 from torn_open import AnnotatedHandler, Application, url
 
 @pytest.fixture
